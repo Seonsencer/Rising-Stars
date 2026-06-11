@@ -535,3 +535,65 @@ padding:20px;
 }
 
 }
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    nav {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 3rem !important;
+        line-height: 1.1;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    .hero-btn {
+        padding: 14px 28px;
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 60px 20px;
+    }
+
+    .cards,
+    .gallery-grid,
+    .team-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 2.2rem !important;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+}
